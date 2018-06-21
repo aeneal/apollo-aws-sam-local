@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "e1ed395c-02b9-4a40-aed8-f577a416bd98",
+		"name": "ApolloServerless",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SampleAPIQuery",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"query\" :\"{ posts {title votes}}\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/graphql",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
