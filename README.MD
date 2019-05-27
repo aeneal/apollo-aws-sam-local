@@ -1,4 +1,4 @@
-A very simple example to run an an Apollo Service as a Lambda and use the GraphiQL User Interface. 
+A very simple example to run an Apollo Service as a Lambda and use the GraphiQL User Interface. 
 
 ```
 git clone
